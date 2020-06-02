@@ -18,10 +18,14 @@
     background-color: #e2e3e4;
 }
 
-.card {
+.projectsCard {
     padding: 20px;
     margin-top: 40px;
     margin-left: 0px;
+}
+
+.aboutpage{
+    margin-top: 40px;
 }
 
 .card-title {
@@ -32,8 +36,8 @@
 
 img {
     float: left;
-    width: 30%;
-    height: auto;
+    width: 70%;
+    height: 70%;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -67,4 +71,42 @@ body {
 .imageClass{
     border: black;
     border-width: 5px;
+}
+
+.aboutarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10;
+    padding-bottom: 5%;
+    padding-right: 5%;
+  }
+
+  .bio1{
+    padding-right: 10%;
+    max-width: 100%;
+    font-family: "EB Garamond", serif;
+  }
+
+  .mainHeading{
+      text-align: center;
+      padding-top: 25%;
+      font-size: 100px;
+      font-style: italic;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  #links1{
+      padding-top: 10px;
+      font-size: 40px;
+      float: left;
+      margin-left: 10%;
+  }
+
+
+  #links2{
+    padding-top: 10px;
+    font-size: 40px;
+    float: right;
+    margin-right: 10%;
 }
